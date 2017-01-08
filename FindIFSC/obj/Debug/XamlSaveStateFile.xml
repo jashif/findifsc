@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\findifsc\obj\debug\intermediatexaml\findifsc.exe" HashGuid="cae387c0-3633-9e6d-d57b-b2325abdd406" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\findifsc\appstudio.common.dll" HashGuid="c4d06a26-14f9-f329-0c49-0db822a0aeda" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\htmlagilitypack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+monoandroid+monotouch\htmlagilitypack.dll" HashGuid="365e4636-8cbf-8d2d-3790-d3267e801443" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BANKS" xml:space="preserve">
+    <value>ABHYUDAYA COOPERATIVE BANK LTD
+ | ABU DHABI COMMERCIAL BANK
+ | ALLAHABAD BANK
+ | ALMORA URBAN CO.OPERATIVE BANK LTD.
+ | ANDHRA BANK
+ | APNA SAHAKARI BANK LTD
+ | AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED.
+ | AXIS BANK
+ | BANK OF AMERICA
+ | BANK OF BAHRAIN AND KUWAIT
+ | BANK OF BARODA
+ | BANK OF CEYLON
+ | BANK OF INDIA
+ | BANK OF MAHARASHTRA
+ | BANK OF TOKYO MITSUBISHI UFJ LTD.
+ | BARCLAYS BANK PLC
+ | BASSEIN CATHOLIC CO OP BANK LTD
+ | BNP PARIBAS
+ | CANARA BANK
+ | CAPITAL LOCAL AREA BANK LTD.
+ | CATHOLIC SYRIAN BANK LTD
+ | CENTRAL BANK OF INDIA
+ | CHINATRUST COMMERCIAL BANK
+ | CITIBANK NA
+ | CITIZENCREDIT CO.OPERATIVE BANK LTD
+ | CITY UNION BANK LTD
+ | COMMONWEALTH BANK OF AUSTRALIA
+ | CORPORATION BANK
+ | CREDIT AGRICOLE CORPORATE AND INVESTEMENT BANK
+ | CREDIT SUISSE AG
+ | DBS BANK LTD
+ | DENA BANK
+ | DEUTSCHE BANK
+ | DEVELOPMENT CREDIT BANK LIMITED
+ | DHANLAXMI BANK LTD
+ | DICGC
+ | DOMBIVLI NAGARI SAHAKARI BANK LIMITED
+ | FIRSTRAND BANK LIMITED
+ | GURGAON GRAMIN BANK
+ | HDFC BANK LTD
+ | HSBC
+ | ICICI BANK LTD
+ | IDBI BANK LTD
+ | INDIAN BANK
+ | INDIAN OVERSEAS BANK
+ | INDUSIND BANK LTD
+ | ING VYSYA BANK LTD
+ | JALGAON JANATA SAHKARI BANK LTD
+ | JANAKALYAN SAHAKARI BANK LTD
+ | JANATA SAHAKARI BANK LTD (PUNE )
+ | JP MORGAN CHASE BANK
+ | KALLAPPANNA AWADE ICH JANATA S BANK
+ | KAPOLE CO OP BANK
+ | KARNATAKA BANK LTD
+ | KARUR VYSYA BANK
+ | KOTAK MAHINDRA BANK
+ | MAHANAGAR CO.OP BANK LTD
+ | MAHARASHTRA STATE CO OPERATIVE BANK
+ | MASHREQ BANK PSC
+ | MIZUHO CORPORATE BANK LTD
+ | MUMBAI DISTRICT CENTRAL CO.OP. BANK LTD.
+ | NAGPUR NAGRIK SAHAKARI BANK LTD
+ | NEW INDIA CO.OPERATIVE BANK LTD
+ | NKGSB CO.OP BANK LTD
+ | NORTH MALABAR GRAMIN BANK
+ | NUTAN NAGARIK SAHAKARI BANK LTD
+ | OMAN INTERNATIONAL BANK SAOG
+ | ORIENTAL BANK OF COMMERCE
+ | PARSIK JANATA SAHAKARI BANK LTD
+ | PRATHAMA BANK
+ | PRIME CO OPERATIVE BANK LTD
+ | PUNJAB AND MAHARASHTRA CO OP BANK LTD
+ | PUNJAB AND SIND BANK
+ | PUNJAB NATIONAL BANK
+ | RABOBANK INTERNATIONAL (CCRB)
+ | RAJKOT NAGARIK SAHAKARI BANK LTD
+ | RESERVE BANK OF INDIA
+ | SBERBANK
+ | SHINHAN BANK
+ | SHRI CHHATRAPATI RAJARSHI SHAHU URBAN CO.OP BANK LTD
+ | SOCIETE GENERALE
+ | SOUTH INDIAN BANK
+ | STANDARD CHARTERED BANK
+ | STATE BANK OF BIKANER AND JAIPUR
+ | STATE BANK OF HYDERABAD
+ | STATE BANK OF INDIA
+ | STATE BANK OF MAURITIUS LTD
+ | STATE BANK OF MYSORE
+ | STATE BANK OF PATIALA
+ | STATE BANK OF TRAVANCORE
+ | SYNDICATE BANK
+ | TAMILNAD MERCANTILE BANK LTD
+ | THANE BHARAT SAHAKARI BANK LTD
+ | THE A.P. MAHESH CO.OP URBAN BANK LTD.
+ | THE AHMEDABAD MERCANTILE CO.OPERATIVE BANK LTD
+ | THE BANK OF NOVA SCOTIA
+ | THE BHARAT CO.OPERATIVE BANK (MUMBAI) LTD
+ | THE COSMOS CO.OPERATIVE BANK LTD
+ | THE FEDERAL BANK LTD
+ | THE GREATER BOMBAY CO.OP BANK LTD
+ | THE GUJARAT STATE CO.OPERATIVE BANK LTD
+ | THE JAMMU AND KASHMIR BANK LTD
+ | THE KALUPUR COMMERCIAL CO OP BANK LTD
+ | THE KALYAN JANATA SAHAKARI BANK LTD
+ | THE KANGRA CENTRAL CO.OP BANK LIMITED
+ | THE KARAD URBAN CO.OP BANK LTD
+ | THE KARNATAKA STATE APEX COOP. BANK LTD
+ | THE LAKSHMI VILAS BANK LTD
+ | THE MEHSANA URBAN COOPERATIVE BANK LTD
+ | THE MUNICIPAL CO OPERATIVE BANK LTD MUMBAI
+ | THE NAINITAL BANK LIMITED
+ | THE NASHIK MERCHANTS CO.OP BANK LTD., NASHIK
+ | THE RAJASTHAN STATE COOPERATIVE BANK LTD.
+ | THE RATNAKAR BANK LTD
+ | THE ROYAL BANK OF SCOTLAND NV
+ | THE SARASWAT CO.OPERATIVE BANK LTD
+ | THE SHAMRAO VITHAL CO.OPERATIVE BANK LTD
+ | THE SURAT DISTRICT CO OPERATIVE BANK LTD.
+ | THE SURAT PEOPLES CO.OP BANK LTD
+ | THE SUTEX CO.OP. BANK LTD.
+ | THE TAMILNADU STATE APEX COOPERATIVE BANK LIMITED
+ | THE THANE JANATA SAHAKARI BANK LTD
+ | THE VARACHHA CO.OP. BANK LTD.
+ | THE WEST BENGAL STATE COOPERATIVE BANK LTD
+ | TUMKUR GRAIN MERCHANTS COOPERATIVE BANK LTD.,
+ | UBS AG
+ | UCO BANK
+ | UNION BANK OF INDIA
+ | UNITED BANK OF INDIA
+ | VIJAYA BANK
+ | WOORI BANK
+ | YES BANK LTD</value>
+  </data>
+</root>

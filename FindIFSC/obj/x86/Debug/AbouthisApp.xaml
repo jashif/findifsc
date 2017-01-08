@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="FindIFSC.AbouthisApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EasyRecipes.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   
+    xmlns:controls="using:AppStudio.Common.Controls"
+    xmlns:html2xaml="using:AppStudio.Common.Controls.Html2Xaml"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="AppTitleStyle">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+        <DataTemplate x:Key="PageHeaderText">
+            <Grid Margin="12,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+              
+                <TextBlock  Grid.Column="1" Text="IFSC Finder" Style="{StaticResource AppTitleStyle}" VerticalAlignment="Center" HorizontalAlignment="Left" IsHitTestVisible="false" TextWrapping="NoWrap" />
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Name="PageHeader">
+            <ContentPresenter ContentTemplate="{StaticResource PageHeaderText}"/>
+        </DataTemplate>
+    </Page.Resources>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border x:Name="HeaderHost"  Background="#16A085" Grid.Row="0">
+            <ContentPresenter HorizontalAlignment="Left" 
+                              ContentTemplate="{StaticResource PageHeader}" 
+                          />
+        </Border>
+
+        <TextBlock x:Uid="AboutSection" Style="{StaticResource AppTitleStyle}" Foreground="#16A085"
+                   Margin="12,0" Grid.Row="1"  Text="about"
+                   />
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ScrollViewer Grid.Row="0" Margin="12,20"
+                          HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <TextBlock FontSize="19" Foreground="#16A085" Text="{Binding AboutText}"
+                            TextWrapping="Wrap"/>
+            </ScrollViewer>
+
+            <TextBlock Foreground="#16A085" Grid.Row="1" 
+                       Margin="12,24,12,0" FontSize="18" 
+     TextWrapping="Wrap">
+                <Run x:Uid="AppVersion" Text="App version:"/>
+                <Run Text="{Binding AppVersion}" />
+                <Run Text="- Jashif's Dev Garage" />
+            </TextBlock>
+
+            <TextBlock Foreground="#16A085" Grid.Row="2" Margin="12,0,12,12" FontSize="18" 
+                 >
+                <Run x:Uid="DevelopedBy" Text="Developed by:" />
+                <Run Text="{Binding Publisher}"/>
+            </TextBlock>
+
+        </Grid>
+    </Grid>
+</Page>
+

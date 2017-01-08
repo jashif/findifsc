@@ -1,0 +1,18 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\findifsc\obj\x86\debug\intermediatexaml\findifsc.exe" HashGuid="6eb6902f-1460-198f-b684-68352d57e5e3" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\neutral\microsoft.admediator.core.dll" HashGuid="fec80444-027d-4507-d948-53e28c9c373e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\neutral\microsoft.admediator.windowsphone81.dll" HashGuid="a5edabf2-e23a-377a-0837-bc9b566795a0" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\x86\microsoft.admediator.windowsphone81.microsoftadvertising.dll" HashGuid="9d994ac0-3aa2-22c1-4cd0-2fb9201f1e54" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.admediator81\1.0\references\commonconfiguration\neutral\microsoft.advertising.winmd" HashGuid="0e298d0e-35bc-69c1-ce53-3ec79c031e52" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.controls.winphone.xaml.winmd" HashGuid="008cbc5f-2cd6-f4d6-cccb-456e3283cdc9" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\adduplexwinphone81.9.0.0.5\lib\portable-win81+wpa81\adduplex.universal.winphone.winrt.winmd" HashGuid="583512d9-4c6a-e7ad-c421-2c9e2d0d4040" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\findifsc\appstudio.common.dll" HashGuid="c4d06a26-14f9-f329-0c49-0db822a0aeda" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\htmlagilitypack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+monoandroid+monotouch\htmlagilitypack.dll" HashGuid="365e4636-8cbf-8d2d-3790-d3267e801443" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\microsoft.admediator.windowsphone81.adduplex.2.0.1\lib\wpa\microsoft.admediator.windowsphone81.adduplex.dll" HashGuid="fe0569cd-538e-a088-219d-ebd488fda3be" />
+    <ReferenceAssembly PathName="c:\users\jaboobac\documents\visual studio 2013\projects\findifsc\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

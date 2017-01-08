@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="FindIFSC.DonatePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SuperShare.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#16A085">
+            <TextBlock Text="SUPERSHARE" FontSize="22" FontFamily="Segoe UI" Margin="12,0,0,0" FontWeight="Bold"/>
+        </Grid>
+        <Grid Grid.Row="1" >
+            <TextBlock Foreground="Black" Text="donate for creating more apps" VerticalAlignment="Center" FontSize="22" FontFamily="Segoe UI" Margin="12,0,0,0" FontWeight="Bold"/>
+        </Grid>
+        <WebView x:Name="web" Grid.Row="2"></WebView>
+    </Grid>
+</Page>
